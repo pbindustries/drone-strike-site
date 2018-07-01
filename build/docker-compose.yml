@@ -1,0 +1,53 @@
+version: "2"
+
+services:
+
+  nginx:
+    build:
+      context: ./nginx/
+      dockerfile: Dockerfile_nginx
+    ports:
+      - "9000:9000"
+    restart: on-failure
+
+  elasticsearch:
+    build:
+      context: ./elasticsearch/
+      dockerfile: Dockerfile
+    environment:
+      SERVER_NAME: ${ELASTIC_HOST}
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+    restart: on-failure
+    # healthcheck:
+    #   test: ["CMD", "curl",  "--silent", "-f", "localhost:9200/_cluster/health || exit 1"]
+    #   interval: 30s
+    #   timeout: 30s
+    #   retries: 3
+    #   start_period: 40s
+    networks:
+      - es
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana-oss:6.2.4
+    ports:
+      - "5601:5601" 
+    # depends_on:
+    #   elasticsearch:
+    #     condition: service_healthy
+    environment:
+      SERVER_NAME: ${KIBANA_HOST}
+      ELASTICSEARCH_URL: ${ELASTIC_FULL_URL}
+    restart: on-failure
+    networks:
+      - es
+
+# Persisting volumes
+volumes:
+  nginx-volume:
+  elasticsearch-volume:
+  kibana-volume:
+
+networks:
+  es:
