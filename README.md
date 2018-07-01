@@ -9,6 +9,7 @@ Email me if you have any questions: pbindustriesapps@gmail.com
 
 - Docker and Docker-compose (Docker CE is recommended)
 - NPM (NVM is recommended)
+- Angular 6 and Angular-CLI
 
 ### Set Up The Dockerized Nginx Server and Angular 6 Frontend
 
@@ -23,8 +24,8 @@ Email me if you have any questions: pbindustriesapps@gmail.com
 
 #### Example setup in Mac terminal:
 ```
-git clone https://github.com/pbindustries/elastic-stack-twitter-analyzer.git
-cd elastic-stack-twitter-analyzer/build
+git clone https://github.com/pbindustries/drone-strike-site
+cd drone-strike-site/build
 vim .env
 docker-compose build
 docker-compose up
@@ -37,12 +38,11 @@ npm run start
 
 ```
 
-# Project structure
+# Frontend Project structure
 
 ```
 dist/                        compiled version
 docs/                        project docs and coding guides
-e2e/                         end-to-end tests
 src/                         project source code
 |- app/                      app components
 |  |- core/                  core module (singleton services and single-use components)
@@ -58,9 +58,7 @@ src/                         project source code
 |- index.html                html entry point
 |- main.scss                 global style entry point
 |- main.ts                   app entry point
-|- polyfills.ts              polyfills needed by Angular
-+- test.ts                   unit tests entry point
-reports/                     test and coverage reports
++- polyfills.ts              polyfills needed by Angular
 proxy.conf.js                backend proxy configuration
 ```
 
@@ -72,9 +70,6 @@ Tasks                         | Description
 ------------------------------|---------------------------------------------------------------------------------------
 npm start                     | Run development server on `http://localhost:4200/`
 npm run build [-- --env=prod] | Lint code and build app for production in `dist/` folder
-npm test                      | Run unit tests via [Karma](https://karma-runner.github.io) in watch mode
-npm run test:ci               | Lint code and run unit tests once for continuous integration
-npm run e2e                   | Run e2e tests using [Protractor](http://www.protractortest.org)
 npm run lint                  | Lint code
 npm run translations:extract  | Extract strings from code and templates to `src/app/translations/template.json`
 npm run docs                  | Display project documentation
