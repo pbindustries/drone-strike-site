@@ -1,0 +1,3 @@
+#!/bin/bash
+
+curl -XPUT "http://localhost:9200/drone/data/1" -d @droneOutput.json -H 'Content-Type: application/json'

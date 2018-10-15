@@ -1,0 +1,7 @@
+#!/bin/bash
+
+
+
+ URL="http://api.dronestre.am/data"
+ wget "$URL" -O - | jq '.' >> ~/pbindustries/public/drone-strike-site/data/droneOutput.json
+
