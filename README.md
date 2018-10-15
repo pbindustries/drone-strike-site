@@ -8,8 +8,7 @@ Email me if you have any questions: pbindustriesapps@gmail.com
 ### Prerequisites
 
 - Docker and Docker-compose (Docker CE is recommended)
-- NPM (NVM is recommended)
-- Angular 6 and Angular-CLI
+- NPM Version >=v v8.11 (NVM is recommended for NPM version management)
 
 ### Set Up The Dockerized Nginx Server and Angular 6 Frontend
 
@@ -33,46 +32,12 @@ docker-compose up
 ### New Terminal Tab###
 <Enter Project Directory>
 cd /app
+nvm use 10.9 (optional)
 npm install 
-npm run start
+npm run develop
 
 ```
 
-# Frontend Project structure
-
-```
-dist/                        compiled version
-docs/                        project docs and coding guides
-src/                         project source code
-|- app/                      app components
-|  |- core/                  core module (singleton services and single-use components)
-|  |- shared/                shared module  (common components, directives and pipes)
-|  |- app.component.*        app root component (shell)
-|  |- app.module.ts          app root module definition
-|  |- app-routing.module.ts  app routes
-|  +- ...                    additional modules and components
-|- assets/                   app assets (images, fonts, sounds...)
-|- environments/             values for various build environments
-|- theme/                    app global scss variables and theme
-|- translations/             translations files
-|- index.html                html entry point
-|- main.scss                 global style entry point
-|- main.ts                   app entry point
-+- polyfills.ts              polyfills needed by Angular
-proxy.conf.js                backend proxy configuration
-```
-
-# Main tasks
-
-Task automation is based on [NPM scripts](https://docs.npmjs.com/misc/scripts).
-
-Tasks                         | Description
-------------------------------|---------------------------------------------------------------------------------------
-npm start                     | Run development server on `http://localhost:4200/`
-npm run build [-- --env=prod] | Lint code and build app for production in `dist/` folder
-npm run lint                  | Lint code
-npm run translations:extract  | Extract strings from code and templates to `src/app/translations/template.json`
-npm run docs                  | Display project documentation
 
 # Dope Commands
 
@@ -80,26 +45,3 @@ npm run docs                  | Display project documentation
 
 
 
-# Licence
-
-The MIT License (MIT)
-
-Copyright (c) 2016-2018 Thales Services SAS
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
