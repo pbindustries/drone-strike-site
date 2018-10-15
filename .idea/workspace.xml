@@ -2,70 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74f98d16-6a2c-4dd7-96d5-37cbb807207a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/assets/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/fonts/cornerstone.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/fonts/cornerstone.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/img/actions/checked.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/img/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/img/pizza.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/img/toppings/anchovy.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/img/toppings/bacon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/img/toppings/basil.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/img/toppings/chili.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/img/toppings/mozzarella.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/img/toppings/mushroom.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/img/toppings/olive.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/img/toppings/onion.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/img/toppings/pepper.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/img/toppings/pepperoni.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/img/toppings/prawn.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/img/toppings/singles/anchovy.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/img/toppings/singles/bacon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/img/toppings/singles/basil.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/img/toppings/singles/chili.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/img/toppings/singles/mozzarella.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/img/toppings/singles/mushroom.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/img/toppings/singles/olive.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/img/toppings/singles/onion.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/img/toppings/singles/pepper.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/img/toppings/singles/pepperoni.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/img/toppings/singles/prawn.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/img/toppings/singles/sweetcorn.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/img/toppings/singles/tomato.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/img/toppings/sweetcorn.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/img/toppings/tomato.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/db.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/karma.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/karma.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/app/app.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/app/containers/app/app.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/app/containers/app/app.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/products/components/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/products/components/pizza-display/pizza-display.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/products/components/pizza-display/pizza-display.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/products/components/pizza-form/pizza-form.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/products/components/pizza-form/pizza-form.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/products/components/pizza-item/pizza-item.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/products/components/pizza-item/pizza-item.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/products/components/pizza-toppings/pizza-toppings.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/products/components/pizza-toppings/pizza-toppings.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/products/containers/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/products/containers/product-item/product-item.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/products/containers/product-item/product-item.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/products/containers/products/products.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/products/containers/products/products.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/products/models/pizza.model.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/products/models/topping.model.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/products/products.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/products/services/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/products/services/pizzas.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/products/services/toppings.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/webpack.config.js" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/gatsby-config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/src/assets/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/src/assets/css/stats.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/src/assets/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/src/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/src/assets/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/src/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/src/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/src/assets/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/src/assets/images/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/src/assets/images/avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/src/assets/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/src/assets/images/fulls/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/src/assets/images/fulls/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/src/assets/images/fulls/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/src/assets/images/fulls/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/src/assets/images/fulls/05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/src/assets/images/fulls/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/src/assets/images/thumbs/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/src/assets/images/thumbs/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/src/assets/images/thumbs/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/src/assets/images/thumbs/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/src/assets/images/thumbs/05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/src/assets/images/thumbs/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/src/assets/images/website-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/src/assets/scss/ie8.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/src/assets/scss/images/overlay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/src/assets/scss/libs/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/src/assets/scss/libs/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/src/assets/scss/libs/_skel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/src/assets/scss/libs/_vars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/src/assets/scss/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/src/components/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/src/components/Gallery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/src/components/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/src/components/layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/src/pages/404.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/src/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -106,7 +87,8 @@
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -114,30 +96,41 @@
           <entry key="Dockerfile" value="1" />
           <entry key="conf" value="1" />
           <entry key="getDroneData" value="1" />
-          <entry key="json" value="4" />
+          <entry key="gitignore" value="2" />
+          <entry key="html" value="1" />
+          <entry key="js" value="2" />
+          <entry key="json" value="5" />
           <entry key="jsonToElastic" value="1" />
+          <entry key="map" value="1" />
           <entry key="testScript" value="1" />
+          <entry key="webmanifest" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Dockerfile" value="1" />
-          <entry key="JSON" value="4" />
-          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="HTML" value="1" />
+          <entry key="JSON" value="5" />
+          <entry key="JavaScript" value="2" />
+          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="SourceMap" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="6" />
-          <entry key="PLAIN_TEXT" value="109" />
+          <entry key="JSON" value="117" />
+          <entry key="JavaScript" value="1" />
+          <entry key="PLAIN_TEXT" value="111" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="getDroneData" value="95" />
-          <entry key="json" value="6" />
+          <entry key="gitignore" value="2" />
+          <entry key="js" value="1" />
+          <entry key="json" value="117" />
           <entry key="jsonToElastic" value="6" />
           <entry key="testScript" value="8" />
         </counts>
@@ -147,58 +140,79 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/.env">
+        <entry file="file://$PROJECT_DIR$/data/droneOutput.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="4" selection-start-line="11" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/public/index.html">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/getDroneData">
+        <entry file="file://$PROJECT_DIR$/site/src/pages/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="11" selection-end-line="1" />
+            <state relative-caret-position="299">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data/droneOutput.json">
+        <entry file="file://$PROJECT_DIR$/site/src/components/Header.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-384379">
-              <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            <state relative-caret-position="207">
+              <caret line="11" column="65" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/test.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10626">
-              <caret column="462773" selection-start-column="462773" selection-end-column="462773" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/jsonToElastic">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="104" lean-forward="true" selection-start-line="2" selection-start-column="104" selection-end-line="2" selection-end-column="104" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/testScript">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="56" selection-start-column="56" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/nginx/Dockerfile">
+        <entry file="file://$PROJECT_DIR$/site/public/manifest.webmanifest">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/public/render-page.js.map">
+          <provider selected="true" editor-type-id="text-editor" />
+          <provider editor-type-id="sourcemapFileViewerProvider" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -219,6 +233,10 @@
         <option value="$PROJECT_DIR$/data/temp.json" />
         <option value="$PROJECT_DIR$/data/testScript" />
         <option value="$PROJECT_DIR$/data/jsonToElastic" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/site/package.json" />
+        <option value="$PROJECT_DIR$/site/src/pages/index.js" />
+        <option value="$PROJECT_DIR$/site/src/components/Header.js" />
       </list>
     </option>
   </component>
@@ -228,11 +246,21 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/site/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/site/package.json" />
+    </packageJsonPaths>
+  </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="286" />
     <option name="y" value="23" />
-    <option name="width" value="1440" />
+    <option name="width" value="1154" />
     <option name="height" value="797" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -248,7 +276,37 @@
             <path>
               <item name="drone-strike-site" type="b2602c69:ProjectViewProjectNode" />
               <item name="drone-strike-site" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="drone-strike-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="drone-strike-site" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="drone-strike-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="drone-strike-site" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="drone-strike-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="drone-strike-site" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="drone-strike-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="drone-strike-site" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="drone-strike-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="drone-strike-site" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -262,6 +320,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/site" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -289,16 +353,18 @@
       <workItem from="1538191719303" duration="4381000" />
       <workItem from="1539441181323" duration="769000" />
       <workItem from="1539529950399" duration="220000" />
+      <workItem from="1539631488210" duration="1122000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6271000" />
+    <option name="totallyTimeSpent" value="7393000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="797" extended-state="0" />
+    <frame x="286" y="23" width="1154" height="797" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26286116" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32921448" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -310,7 +376,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.06042296" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.41087613" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -366,6 +432,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/jsonToElastic">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="104" selection-start-line="2" selection-start-column="104" selection-end-line="2" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data/testScript">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -379,17 +452,61 @@
     <entry file="file://$PROJECT_DIR$/build/nginx/default.conf">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/jsonToElastic">
+    <entry file="file://$PROJECT_DIR$/data/droneOutput.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="104" lean-forward="true" selection-start-line="2" selection-start-column="104" selection-end-line="2" selection-end-column="104" />
+        <state relative-caret-position="276">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/droneOutput.json">
+    <entry file="file://$PROJECT_DIR$/site/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-384379">
-          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        <state relative-caret-position="253">
+          <caret line="11" column="4" selection-start-line="11" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/public/manifest.webmanifest">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/public/render-page.js.map">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="sourcemapFileViewerProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/public/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/src/pages/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/src/components/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="11" column="65" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
