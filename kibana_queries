@@ -1,0 +1,37 @@
+PUT temp_drone
+{
+  "mappings": {
+    "strike": { 
+      "properties": { 
+        "_id":    { "type": "keyword"  }, 
+        "number":     { "type": "integer"  }, 
+        "country":      { "type": "keyword" },
+        "date":    { "type": "date"  }, 
+        "narrative":     { "type": "text"  }, 
+        "town":      { "type": "keyword" },
+        "location":    { "type": "keyword"  }, 
+        "deaths":     { "type": "integer"  }, 
+        "deaths_min":      { "type": "integer" }, 
+        "deaths_max":      { "type": "integer" },
+        "civilians":    { "type": "integer"  }, 
+        "injuries":     { "type": "integer"  }, 
+        "children":      { "type": "integer" }, 
+        "tweet_id":      { "type": "keyword" }, 
+        "bureau_id":      { "type": "keyword" },
+        "bij_summary_short":    { "type": "text"  }, 
+        "bij_link":     { "type": "keyword"  }, 
+        "target":      { "type": "text" }, 
+        "lat":      { "type": "geo_point" },
+        "lon":    { "type": "geo_point" }, 
+        "articles":     {
+          "type": "text"
+        }, 
+        "names":      { "type": "text" }, 
+        "created":  {
+          "type":   "date", 
+          "format": "strict_date_optional_time||epoch_millis"
+        }
+      }
+    }
+  }
+}
